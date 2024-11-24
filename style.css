@@ -41,3 +41,70 @@
     margin-top: 20px; /* Espaço para evitar sobreposição com o menu */
     padding: 20px;
 }
+
+
+.subphrase {
+    font-size: 0.9em; /* Deixa o texto menor */
+    color: gray; /* Muda a cor para um tom mais discreto */
+    margin-top: -10px; /* Ajusta o espaço se necessário */
+}
+
+
+
+/* Contêiner principal do membro */
+.member-container {
+    display: flex; /* Alinha os itens na horizontal */
+    justify-content: space-between; /* Espaça os itens */
+    align-items: center; /* Centraliza verticalmente texto e imagem */
+    gap: 15px; /* Espaço entre texto e imagem */
+    margin-bottom: 20px; /* Espaço inferior entre membros */
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Linha divisória para estética */
+}
+
+/* Texto do membro */
+.member-info {
+    flex: 1; /* Garante que o texto ocupe mais espaço que a imagem */
+}
+
+/* Nome do membro */
+.member-name {
+    font-size: 20px; /* Tamanho do texto */
+    font-weight: bold; /* Destaque no nome */
+    color: #333; /* Cor do texto */
+}
+
+/* Subfrase */
+.subphrase {
+    font-size: 16px; /* Tamanho menor para descrições */
+    color: gray; /* Cor mais discreta */
+    margin-top: 5px; /* Espaço entre linhas */
+}
+
+/* Estilo da imagem */
+.member-photo {
+    width: 120px; /* Largura da imagem */
+    height: 120px; /* Altura da imagem */
+    border-radius: 10px; /* Borda levemente arredondada */
+    object-fit: cover; /* Ajusta a imagem ao tamanho do container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+
+/* Contêiner dos patrocinadores */
+.sponsors-container {
+    display: flex; /* Coloca os itens lado a lado */
+    justify-content: left; /* Centraliza os itens no contêiner */
+    align-items: center; /* Alinha verticalmente os itens */
+    gap: 20px; /* Espaçamento entre as logos */
+    margin-top: 10px; /* Espaçamento acima das logos */
+}
+
+/* Estilo das logos */
+.sponsor-logo {
+    width: 100px; /* Define a largura máxima */
+    height: 100px; /* Mantém as proporções originais */
+    object-fit: contain; /* Ajusta o conteúdo sem cortar */
+    border-radius: 5px; /* Opcional: bordas levemente arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra suave */
+}
