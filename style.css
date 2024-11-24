@@ -1,0 +1,43 @@
+/* Estilo do menu de navegação */
+.navbar {
+    background-color: #333; /* Cor de fundo do menu */
+    overflow: hidden;
+    position: sticky; /* Fixa o menu no topo ao rolar */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique sobre outros elementos */
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /* Alinha os itens na horizontal */
+    justify-content: center; /* Centraliza o menu */
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Cor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Animação suave */
+}
+
+/* Estilo para o conteúdo abaixo do menu */
+.content {
+    margin-top: 20px; /* Espaço para evitar sobreposição com o menu */
+    padding: 20px;
+}
