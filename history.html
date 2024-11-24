@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History</title>
+    <title>Team</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .team-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            color: #444;
+            border-bottom: 2px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .members-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .members-list li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .members-list li::before {
+            content: "•";
+            color: #ffcc00;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
-        <h1>History</h1>
+        <h1>Team</h1>
     </div>
 
     <!-- Menu de Navegação -->
@@ -16,8 +67,8 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="history.html">History</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="atHome2025.html">@Home 2025</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <!-- <li><a href="atHome2025.html">@Home 2025</a></li> -->
             <li><a href="team.html">Team Members</a></li>
             <li><a href="robots.html">Robots</a></li>
             <li><a href="videos.html">Videos</a></li>
@@ -26,7 +77,21 @@
     </nav>
 
     <div class="content">
-        <p>Esta é a página de história...</p>
+        <div class="team-container">
+            <h1>A Brief History of Pequi Mecânico's Origins</h1>
+            <p>In 2010, four visionary students from the Federal University of Goiás (UFG) embarked on a journey that would change the landscape of robotics in the Midwest of Brazil. It all began when they decided to participate in the University Robotics Tournament (TRU) at the Federal University of Uberlândia (UFU). Inspired by the experience, they founded a robotics group with a simple yet ambitious mission: unite people with a passion for robotics and compete in challenges that push the boundaries of innovation. Thus, Pequi Mecânico was born.</p>
+            <p> From humble beginnings, their journey started in the IEEE Standard Educational Kit (SEK) category, where they quickly made their mark, earning first and third places in the prestigious Latin American Robotic Competition (LARC). With each passing year, the group expanded its horizons, participating in categories such as:</p>
+            <p>IEEE Very Small Size Soccer</p>
+            <p>IEEE OPEN</p>
+            <p>Robocup Humanoid Racing</p>
+            <p>Robocup Simulation 2D</p>
+            <p>Open Flight (Petrobras Robotics Challenge)</p>
+            <p>Robocup Humanoid Soccer</p>
+            <p>Robocup @Home</p>
+            <p>But Pequi Mecânico is more than a team of competitors. It is a community-driven initiative committed to education and inclusivity. Over the years, the group has brought robotics to the heart of Goiás, conducting mini-courses, workshops, and demonstration events in various cities. By partnering with local governments, they have trained countless students and teachers from public schools, fostering a new generation of innovators.</p>
+            <p> What began as a dream among four students in 2010 has blossomed into a vibrant family of developers and enthusiasts. Pequi Mecânico is not just a robotics group; it’s a movement to democratize and demystify robotics, making it accessible and relatable to everyone. Today, the group is a beacon of inspiration and a reference in robotics across the Midwest region, igniting curiosity and passion wherever they go.</p>
+            
+        </div>
     </div>
 </body>
 </html>

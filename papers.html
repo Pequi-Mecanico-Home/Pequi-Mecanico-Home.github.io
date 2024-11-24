@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .team-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            color: #444;
+            border-bottom: 2px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .members-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .members-list li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .members-list li::before {
+            content: "•";
+            color: #ffcc00;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Papers</h1>
+    </div>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <!-- <li><a href="atHome2025.html">@Home 2025</a></li> -->
+            <li><a href="team.html">Team Members</a></li>
+            <li><a href="robots.html">Robots</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="team-container">
+        <h2>Scientific approach</h2>
+        <p> Include a research statement, a description of the used approach, and information on scientific achievements.</p>
+        <h2>DEMO</h2>
+        <p>Publications: Relevant publications from at least the last five years should be included.
+            Downloadable publications are scored higher during the qualification process.</p>
+        <iframe src="pdf/s41467-024-49687-y.pdf" width="100%" height="600px" style="border: none;"></iframe>
+    </div>
+    </div>
+    <div class="team-container">
+        <h2>DEMO 2</h2>
+        <iframe src="pdf/s41467-024-49687-y.pdf" width="100%" height="600px" style="border: none;"></iframe>
+    </div>
+    </div>
+</body>
+</html>

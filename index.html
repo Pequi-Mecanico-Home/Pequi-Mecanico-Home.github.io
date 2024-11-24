@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History</title>
+    <title>Team</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .team-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            color: #444;
+            border-bottom: 2px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .members-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .members-list li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .members-list li::before {
+            content: "•";
+            color: #ffcc00;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
-        <h1>Home</h1>
+        <h1>Team</h1>
     </div>
 
     <!-- Menu de Navegação -->
@@ -16,8 +67,8 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="history.html">History</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="atHome2025.html">@Home 2025</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <!-- <li><a href="atHome2025.html">@Home 2025</a></li> -->
             <li><a href="team.html">Team Members</a></li>
             <li><a href="robots.html">Robots</a></li>
             <li><a href="videos.html">Videos</a></li>
@@ -26,7 +77,24 @@
     </nav>
 
     <div class="content">
-        <p>Esta é a página de projetos...</p>
+        <div class="team-container">
+            <h1>Welcome to Pequi Mecânico</h1>
+            <p>Pequi Mecânico began in 2010, when four students from the Federal University of Goiás (UFG) participated in the University Robotics Tournament (TRU) at the Federal University of Uberlândia (UFU). Inspired by the experience, they formed a robotics group to unite enthusiasts and compete in various challenges.</p>
+            <p>Starting with the IEEE Standard Educational Kit (SEK), the group quickly expanded to other categories like Robocup Humanoid Soccer, Robocup @Home, and the Petrobrás Robotics Challenge. Over the years, Pequi Mecânico has earned notable achievements, including first and third place in the Latin American Robotics Competition (LARC).</p>
+            <p>Beyond competitions, the group is dedicated to education, bringing robotics to cities across Goiás through workshops, mini-courses, and partnerships with public schools, inspiring students and teachers alike.</p>
+            <p>What began as a small project has grown into a community of innovators passionate about making robotics accessible to everyone. Today, Pequi Mecânico is a regional reference in robotics and a thriving family of dreamers and creators.</p>
+            
+        </div>
+    </div>
+    <div class="content">
+        <div class="team-container">
+            <h1>RoboCup</h1>
+            <p> Link to the league website and previous participations of the team at RoboCup
+(not necessarily only @Home).</p>
+
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 Pequi Mecânico. All rights reserved.</p>
     </div>
 </body>
 </html>

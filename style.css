@@ -1,6 +1,6 @@
 /* Estilo do menu de navegação */
 .navbar {
-    background-color: #333; /* Cor de fundo do menu */
+    background-color: #ffcc00; /* Cor de fundo do menu */
     overflow: hidden;
     position: sticky; /* Fixa o menu no topo ao rolar */
     top: 0;
