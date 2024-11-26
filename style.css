@@ -1,3 +1,22 @@
+/* Importando fontes personalizadas (da nova identidade do Pequi) */
+@font-face {
+    font-family: 'Owners-Regular';
+    src: url('/Pequi-Mecanico-Home.github.io/fonts/Owners-Wide-Regular.otf') format('opentype');
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Owners-Medium';
+    src: url('/Pequi-Mecanico-Home.github.io/fonts/Owners-Wide-Medium.otf') format('opentype');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Pequi-Mecanico-Home.github.io/fonts/Poppins-Regular.ttf') format('truetype');
+    font-style: normal;
+  }
+
 /* Estilo do menu de navegação */
 .navbar {
     background-color: #ffcc00; /* Cor de fundo do menu */
@@ -42,14 +61,11 @@
     padding: 20px;
 }
 
-
 .subphrase {
     font-size: 0.9em; /* Deixa o texto menor */
     color: gray; /* Muda a cor para um tom mais discreto */
     margin-top: -10px; /* Ajusta o espaço se necessário */
 }
-
-
 
 /* Contêiner principal do membro */
 .member-container {
@@ -89,7 +105,6 @@
     object-fit: cover; /* Ajusta a imagem ao tamanho do container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
-
 
 /* Contêiner dos patrocinadores */
 .sponsors-container {
