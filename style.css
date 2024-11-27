@@ -2,19 +2,16 @@
 @font-face {
     font-family: 'Owners-Regular';
     src: url('/Pequi-Mecanico-Home.github.io/fonts/Owners-Wide-Regular.otf') format('opentype');
-    font-style: normal;
   }
   
 @font-face {
     font-family: 'Owners-Medium';
     src: url('/Pequi-Mecanico-Home.github.io/fonts/Owners-Wide-Medium.otf') format('opentype');
-    font-style: normal;
   }
 
 @font-face {
     font-family: 'Poppins';
     src: url('/Pequi-Mecanico-Home.github.io/fonts/Poppins-Regular.ttf') format('truetype');
-    font-style: normal;
   }
 
 /* Estilo do menu de navegação */
