@@ -17,13 +17,14 @@
 /* Estilo do menu de navegação */
 .navbar {
     font-family: 'Owners-Medium', sans-serif; /* Fonte personalizada */
-    background-color: #ffcc00; /* Cor de fundo do menu */
+    background-color: #F7CE23; /* Cor de fundo do menu */
     overflow: hidden;
     position: sticky; /* Fixa o menu no topo ao rolar */
     top: 0;
     width: 100%;
     z-index: 1000; /* Garante que o menu fique sobre outros elementos */
-}
+    padding: 16px 0; /* Espaço extra na barra */
+}   
 
 .navbar ul {
     margin: 0;
@@ -49,7 +50,7 @@
 }
 
 .navbar a:hover {
-    background-color: #575757; /* Cor ao passar o mouse */
+    background-color: #7F7F7F; /* Cor ao passar o mouse */
     transition: background-color 0.3s ease; /* Animação suave */
 }
 
