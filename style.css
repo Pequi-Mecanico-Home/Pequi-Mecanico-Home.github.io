@@ -16,7 +16,7 @@
 
 /* Estilo do menu de navegação */
 .navbar {
-    font-family: 'Owners-Medium', sans-serif; /* Fonte personalizada */
+    font-family: Poppins, sans-serif; /* Fonte personalizada */
     background-color: #F7CE23; /* Cor de fundo do menu */
     overflow: hidden;
     position: sticky; /* Fixa o menu no topo ao rolar */
