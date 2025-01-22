@@ -53,7 +53,8 @@
 
 .navbar a:hover {
     background-color: white; /* Cor ao passar o mouse */
-    transition: background-color 0.3s ease; /* Animação suave */
+    transition: background-color 0.3s ease-in-out; /* Animação suave */
+    border-radius: 30px; /* Cantos arredondados */
 }
 
 /* Estilo para o conteúdo abaixo do menu */
