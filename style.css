@@ -17,6 +17,7 @@
 /* Estilo do menu de navegação */
 .navbar {
     font-family: Poppins, sans-serif; /* Fonte personalizada */
+    font-weight: 600; /* Semi negrito */
     background-color: #F7CE23; /* Cor de fundo do menu */
     overflow: hidden;
     position: sticky; /* Fixa o menu no topo ao rolar */
@@ -32,6 +33,7 @@
     list-style: none;
     display: flex; /* Alinha os itens na horizontal */
     justify-content: center; /* Centraliza o menu */
+    gap: 40px; /* Espaçamento entre os itens */
 }
 
 .navbar li {
@@ -45,7 +47,7 @@
     text-align: center;
     padding: 14px 20px;
     text-decoration: none; /* Remove o sublinhado */
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
