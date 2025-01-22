@@ -17,52 +17,62 @@
 /* Estilo do menu de navegação */
 .navbar {
     font-family: Poppins, sans-serif; /* Fonte personalizada */
-    font-weight: bold; /*egrito */
+    font-weight: 700; /*egrito */
     background-color: #F7CE23; /* Cor de fundo do menu */
     overflow: hidden; /* Evita que o conteúdo ultrapasse o menu */
     position: sticky; /* Fixa o menu no topo ao rolar */
     top: 0; /* Posiciona no topo */
     width: 100%; /* Largura total */
     z-index: 1000; /* Garante que o menu fique sobre outros elementos */
-    padding: 16px 0; /* Espaço extra na barra */
+    padding: 14px 0; /* Espaço extra na barra */
+    margin-bottom: 20px; /* Adiciona margem inferior para separar do conteúdo */
 }   
 
+/* Estilo do logo */
 .navbar ul {
     margin: 0; /* Remove o espaçamento padrão */
     padding: 0; /* Remove o espaçamento padrão */
     list-style: none; /* Remove a marcação de lista */
     display: flex; /* Alinha os itens na horizontal */
     justify-content: center; /* Centraliza o menu */
-    gap: 40px; /* Espaçamento entre os itens */
+    gap: 12px; /* Espaçamento entre os itens */
 }
 
+/* Estilo dos itens do menu */
 .navbar li {
     margin: 0;
     padding: 0;
 }
 
+/* Estilo dos links do menu */
 .navbar a {
     display: block;
     color: black; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
-    padding: 14px 20px; /* Espaçamento interno */
+    padding: 12px 20px; /* Espaçamento interno */
     text-decoration: none; /* Remove o sublinhado */
-    font-size: 20px; /* Tamanho do texto */
-    font-weight: bold; /* Negrito */
+    font-size: 14px; /* Tamanho do texto */
+    font-weight: 700; /* Negrito */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+    box-sizing: border-box; /* Inclui o padding no tamanho total do elemento */
+    transition: all 0.4s ease-in-out; /* Animação suave para todas as mudanças */
 }
 
+/* Estilo dos links ao passar o mouse */
 .navbar a:hover {
     background-color: white; /* Cor ao passar o mouse */
-    transition: background-color 0.3s ease-in-out; /* Animação suave */
-    border-radius: 30px; /* Cantos arredondados */
+    border-radius: 40px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
 /* Estilo para o conteúdo abaixo do menu */
 .content {
     margin-top: 20px; /* Espaço para evitar sobreposição com o menu */
-    padding: 20px;
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 80px; /* Garante que o rodapé não sobreponha o conteúdo */
 }
 
+/* Estilo do título */
 .subphrase {
     font-size: 0.9em; /* Deixa o texto menor */
     color: gray; /* Muda a cor para um tom mais discreto */
@@ -78,6 +88,7 @@
     margin-bottom: 20px; /* Espaço inferior entre membros */
     padding: 10px;
     border-bottom: 1px solid #ccc; /* Linha divisória para estética */
+    margin-top: 40px; /* Distância entre o menu e o primeiro contêiner */
 }
 
 /* Texto do membro */
@@ -109,7 +120,7 @@
 }
 
 /* Contêiner dos patrocinadores */
-.sponsors-container {
+.sponsors-container {    padding: 10px 20px; /* Mantém o padding fixo */
     display: flex; /* Coloca os itens lado a lado */
     justify-content: left; /* Centraliza os itens no contêiner */
     align-items: center; /* Alinha verticalmente os itens */
@@ -125,3 +136,26 @@
     border-radius: 5px; /* Opcional: bordas levemente arredondadas */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra suave */
 }
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 14px 0; /* Espaçamento interno */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Posiciona no rodapé */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    box-sizing: border-box; /* Inclui o padding no tamanho total do elemento */
+    font-size: 14px; /* Tamanho do texto */
+    font-weight: 300; /* Peso da fonte */
+}
+
+/* Ajuste no body para garantir que o rodapé não sobreponha o conteúdo */
+body {
+    margin: 0; /* Remove o espaçamento padrão */
+    padding: 0; /* Remove o espaçamento padrão */
+    padding-bottom: 80px; /* Ajuste conforme necessário para garantir que o rodapé não sobreponha o conteúdo */
+}
+
