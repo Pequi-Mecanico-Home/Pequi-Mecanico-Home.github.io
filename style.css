@@ -1,12 +1,12 @@
 /* Importando fontes personalizadas (da nova identidade do Pequi) */
 @font-face {
     font-family: 'Owners-Regular';
-    src: url('/fonts/Owners-Wide-Regular.otf') format('opentype');
+    src: url('/fonts/Poppins-Regular.ttf') format('opentype');
   }
   
 @font-face {
     font-family: 'Owners-Medium';
-    src: url('/fonts/Owners-Wide-Medium.otf') format('opentype');
+    src: url('/fonts/Poppins-Regular.ttf') format('opentype');
   }
 
 @font-face {
