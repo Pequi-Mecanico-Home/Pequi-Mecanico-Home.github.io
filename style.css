@@ -17,20 +17,20 @@
 /* Estilo do menu de navegação */
 .navbar {
     font-family: Poppins, sans-serif; /* Fonte personalizada */
-    font-weight: bold; /* Negrito */
+    font-weight: bold; /*egrito */
     background-color: #F7CE23; /* Cor de fundo do menu */
-    overflow: hidden;
+    overflow: hidden; /* Evita que o conteúdo ultrapasse o menu */
     position: sticky; /* Fixa o menu no topo ao rolar */
-    top: 0;
-    width: 100%;
+    top: 0; /* Posiciona no topo */
+    width: 100%; /* Largura total */
     z-index: 1000; /* Garante que o menu fique sobre outros elementos */
     padding: 16px 0; /* Espaço extra na barra */
 }   
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0; /* Remove o espaçamento padrão */
+    padding: 0; /* Remove o espaçamento padrão */
+    list-style: none; /* Remove a marcação de lista */
     display: flex; /* Alinha os itens na horizontal */
     justify-content: center; /* Centraliza o menu */
     gap: 40px; /* Espaçamento entre os itens */
@@ -43,16 +43,16 @@
 
 .navbar a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
+    color: black; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 14px 20px; /* Espaçamento interno */
     text-decoration: none; /* Remove o sublinhado */
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 20px; /* Tamanho do texto */
+    font-weight: bold; /* Negrito */
 }
 
 .navbar a:hover {
-    background-color: #282828; /* Cor ao passar o mouse */
+    background-color: #7F7F7F; /* Cor ao passar o mouse */
     transition: background-color 0.3s ease; /* Animação suave */
 }
 
