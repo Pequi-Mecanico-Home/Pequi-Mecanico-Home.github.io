@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="robot.html">Robot</a></li>
+            <li><a href="team.html">Members</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="documents.html">Documents</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="content">
+        <div class="team-container">
+            <h1>Miss Piggy</h1>
+            <div style="text-align: center;">
+            <p>Miss Piggy is the main robot developed by the Pequi Mecânico Robotics Team for the RoboCup@Home league, designed to assist humans in domestic environments through advanced manipulation, interaction, navigation, and perception systems.</p>
+            <img src="images/miss.svg" alt="Miss Piggy" class="robot-photo" style="width: 100%; max-width: 200px; height: auto; display: block; margin: 0 auto; margin-top: 45px; margin-bottom: 40px;"></p>
+                <div class="section">
+                    <h2>Manipulator</h2>
+                    <p style="text-align: justify;">Equipped with a ViperX 300s 6DoF manipulator, powered by 8 Dynamixel servos, Miss Piggy can handle up to 750g. The manipulator uses a combination of classical control and reinforcement learning algorithms for task execution.</p>
+                </div>
+                <div class="section">
+                    <h2>Human Interaction</h2>
+                    <p style="text-align: justify;">Miss Piggy interacts primarily via voice commands, using Neural Networks optimized for embedded systems. Speech recognition and synthesis are powered by the NVIDIA Riva SDK, while a custom Llama 2 model enables Natural Language Understanding (NLU) for contextual task processing. A web-based GUI allows additional control and feedback.</p>
+                </div>
+                <div class="section">
+                    <h2>Computer Vision</h2>
+                    <p style="text-align: justify;">The robot employs Yolo11-based models for object and pose detection, enhanced with TensorRT inference for near real-time performance, enabling effective environmental perception and task execution.</p>
+                </div>
+                <div class="section">
+                    <h2>Navigation and Mapping</h2>
+                    <p style="text-align: justify;">Miss Piggy uses the Navigation 2 stack for obstacle avoidance and path planning, with data from LIDAR, point clouds, and a 2D occupancy map generated through SLAM. Localization is achieved using wheel odometry, visual odometry, IMU data, and algorithms like EKF, ORB-SLAM, and AMCL.</p>
+                </div>
+                <div class="section">
+                    <h2>Key Components</h2>
+                    <ul style="text-align: left;">
+                        <li>Jetson Xavier AGX: Handles AI tasks including vision and speech recognition;</li>
+                        <li>Clearpath Jackal UGV: Provides a mobile base for autonomous navigation;</li>
+                        <li>ECS BOX: Manages power distribution and regulation for all robot components.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+    <p>All Rights Reserved. © 2025 Pequi Mecânico</p>
+    </footer>
+
+</body>
+</html>

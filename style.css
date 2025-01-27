@@ -1,161 +1,276 @@
 /* Importando fontes personalizadas (da nova identidade do Pequi) */
 @font-face {
     font-family: 'Owners-Regular';
-    src: url('/fonts/Poppins-Regular.ttf') format('opentype');
-  }
+    src: url('/fonts/Owners-Wide-Regular.otf') format('opentype');
+}
   
 @font-face {
     font-family: 'Owners-Medium';
-    src: url('/fonts/Poppins-Regular.ttf') format('opentype');
-  }
+    src: url('/fonts/Owners-Wide-Medium.otf') format('opentype');
+}
 
 @font-face {
     font-family: 'Poppins';
     src: url('/fonts/Poppins-Regular.ttf') format('truetype');
-  }
-
-/* Estilo do menu de navegação */
-.navbar {
-    font-family: Poppins, sans-serif; /* Fonte personalizada */
-    font-weight: 700; /*egrito */
-    background-color: #F7CE23; /* Cor de fundo do menu */
-    overflow: hidden; /* Evita que o conteúdo ultrapasse o menu */
-    position: sticky; /* Fixa o menu no topo ao rolar */
-    top: 0; /* Posiciona no topo */
-    width: 100%; /* Largura total */
-    z-index: 1000; /* Garante que o menu fique sobre outros elementos */
-    padding: 14px 0; /* Espaço extra na barra */
-    margin-bottom: 20px; /* Adiciona margem inferior para separar do conteúdo */
-}   
-
-/* Estilo do logo */
-.navbar ul {
-    margin: 0; /* Remove o espaçamento padrão */
-    padding: 0; /* Remove o espaçamento padrão */
-    list-style: none; /* Remove a marcação de lista */
-    display: flex; /* Alinha os itens na horizontal */
-    justify-content: center; /* Centraliza o menu */
-    gap: 12px; /* Espaçamento entre os itens */
 }
 
-/* Estilo dos itens do menu */
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar {
+    font-weight: 700;
+    background-color: #F7CE23;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 14px 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}   
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
 .navbar li {
     margin: 0;
     padding: 0;
 }
 
-/* Estilo dos links do menu */
 .navbar a {
     display: block;
-    color: black; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 12px 20px; /* Espaçamento interno */
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 14px; /* Tamanho do texto */
-    font-weight: 700; /* Negrito */
-    text-transform: uppercase; /* Transforma o texto para maiúsculas */
-    box-sizing: border-box; /* Inclui o padding no tamanho total do elemento */
-    transition: all 0.4s ease-in-out; /* Animação suave para todas as mudanças */
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
 }
 
-/* Estilo dos links ao passar o mouse */
 .navbar a:hover {
-    background-color: white; /* Cor ao passar o mouse */
-    border-radius: 40px; /* Cantos arredondados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-/* Estilo para o conteúdo abaixo do menu */
 .content {
-    margin-top: 20px; /* Espaço para evitar sobreposição com o menu */
-    padding: 20px; /* Espaçamento interno */
-    margin-bottom: 80px; /* Garante que o rodapé não sobreponha o conteúdo */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/* Estilo do título */
-.subphrase {
-    font-size: 0.9em; /* Deixa o texto menor */
-    color: gray; /* Muda a cor para um tom mais discreto */
-    margin-top: -10px; /* Ajusta o espaço se necessário */
+.section {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Contêiner principal do membro */
+.team-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+}
+
 .member-container {
-    display: flex; /* Alinha os itens na horizontal */
-    justify-content: space-between; /* Espaça os itens */
-    align-items: center; /* Centraliza verticalmente texto e imagem */
-    gap: 15px; /* Espaço entre texto e imagem */
-    margin-bottom: 20px; /* Espaço inferior entre membros */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     padding: 10px;
-    border-bottom: 1px solid #ccc; /* Linha divisória para estética */
-    margin-top: 40px; /* Distância entre o menu e o primeiro contêiner */
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-/* Texto do membro */
-.member-info {
-    flex: 1; /* Garante que o texto ocupe mais espaço que a imagem */
-}
-
-/* Nome do membro */
 .member-name {
-    font-size: 20px; /* Tamanho do texto */
-    font-weight: bold; /* Destaque no nome */
-    color: #333; /* Cor do texto */
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    align-items: flex-start;
 }
 
-/* Subfrase */
-.subphrase {
-    font-size: 16px; /* Tamanho menor para descrições */
-    color: gray; /* Cor mais discreta */
-    margin-top: 5px; /* Espaço entre linhas */
+.member-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
 }
 
-/* Estilo da imagem */
 .member-photo {
-    width: 120px; /* Largura da imagem */
-    height: 120px; /* Altura da imagem */
-    border-radius: 10px; /* Borda levemente arredondada */
-    object-fit: cover; /* Ajusta a imagem ao tamanho do container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-/* Contêiner dos patrocinadores */
-.sponsors-container {    padding: 10px 20px; /* Mantém o padding fixo */
-    display: flex; /* Coloca os itens lado a lado */
-    justify-content: left; /* Centraliza os itens no contêiner */
-    align-items: center; /* Alinha verticalmente os itens */
-    gap: 20px; /* Espaçamento entre as logos */
-    margin-top: 10px; /* Espaçamento acima das logos */
+h1, h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* Estilo das logos */
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.subphrase {
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.members-list {
+    list-style: none;
+    padding: 0;
+}
+
+.members-list li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.members-list li::before {
+    content: "•";
+    color: #ffcc00;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.sponsors-container {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
 .sponsor-logo {
-    width: 100px; /* Define a largura máxima */
-    height: 100px; /* Mantém as proporções originais */
-    object-fit: contain; /* Ajusta o conteúdo sem cortar */
-    border-radius: 5px; /* Opcional: bordas levemente arredondadas */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra suave */
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
-/* Estilo do rodapé */
+.sponsor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 10px 2px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsor-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.sponsors-subphrase {
+    font-size: 14px;
+    color: black;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 10px 2px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact-logo {
+    max-width: 50px;
+    margin-bottom: 0px;
+}
+
+.contact-subphrase {
+    font-size: 16px;
+    color: black;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .footer {
-    background-color: #333; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    text-align: center; /* Centraliza o conteúdo */
-    padding: 14px 0; /* Espaçamento interno */
-    position: fixed; /* Fixa o rodapé na parte inferior */
-    bottom: 0; /* Posiciona no rodapé */
-    left: 0; /* Alinha à esquerda */
-    width: 100%; /* Largura total */
-    box-sizing: border-box; /* Inclui o padding no tamanho total do elemento */
-    font-size: 14px; /* Tamanho do texto */
-    font-weight: 300; /* Peso da fonte */
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
 }
-
-/* Ajuste no body para garantir que o rodapé não sobreponha o conteúdo */
-body {
-    margin: 0; /* Remove o espaçamento padrão */
-    padding: 0; /* Remove o espaçamento padrão */
-    padding-bottom: 80px; /* Ajuste conforme necessário para garantir que o rodapé não sobreponha o conteúdo */
-}
-
