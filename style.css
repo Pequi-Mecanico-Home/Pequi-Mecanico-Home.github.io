@@ -276,15 +276,14 @@ html {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
-    .navbar ul {
-        flex-direction: column;
-        gap: 10px;
+@media screen and (max-width: 390px) {
+    .navbar {
+        padding: 10px 0;
     }
 
     .navbar a {
-        padding: 10px;
         font-size: 12px;
+        padding: 10px 15px;
     }
 
     .team-container {
@@ -301,26 +300,33 @@ html {
         height: 100px;
     }
 
-    .member-info {
-        text-align: center;
-        align-items: center;
+    .member-name {
+        font-size: 16px;
     }
 
     h1, h2 {
         font-size: 24px;
     }
 
-    .sponsors-container, .contact-container {
-        gap: 12px;
+    .section h2 {
+        font-size: 18px;
     }
 
-    .sponsor-logo, .contact-logo {
+    .members-list li {
+        font-size: 16px;
+    }
+
+    .sponsor-logo {
         width: 80px;
         height: 80px;
     }
 
-    .sponsor-item, .contact-item {
-        padding: 12px;
+    .contact-item {
+        padding: 12px 8px;
+    }
+
+    .contact-logo {
+        max-width: 40px;
     }
 
     .video-container {
@@ -329,40 +335,68 @@ html {
 
     .footer {
         font-size: 10px;
-        padding: 8px 0;
     }
 }
 
-@media (max-width: 480px) {
-    .navbar ul {
-        gap: 8px;
+/* Para tablets */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 12px 0;
     }
 
     .navbar a {
-        font-size: 10px;
-        padding: 8px;
+        font-size: 13px;
+        padding: 10px 18px;
     }
 
-    h1, h2 {
-        font-size: 20px;
+    .team-container {
+        padding: 30px;
     }
 
-    .member-photo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .sponsors-container, .contact-container {
+    .member-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .sponsor-item, .contact-item {
-        width: 100%;
-        max-width: 200px;
+    .member-photo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .member-name {
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 26px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .members-list li {
+        font-size: 17px;
+    }
+
+    .sponsor-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact-item {
+        padding: 14px 10px;
+    }
+
+    .contact-logo {
+        max-width: 45px;
+    }
+
+    .video-container {
+        padding: 8px;
     }
 
     .footer {
-        font-size: 9px;
+        font-size: 11px;
     }
 }
