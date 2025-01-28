@@ -309,7 +309,7 @@ html {
     }
 
     .team-container {
-        max-width: 360px;
+        max-width: 310px;
         padding: 20px;
     }
 
@@ -373,5 +373,9 @@ html {
     .footer {
         font-size: 10px;
         padding: 8px 0;
+    }
+
+    html {
+        overflow-x: hidden;
     }
 }
