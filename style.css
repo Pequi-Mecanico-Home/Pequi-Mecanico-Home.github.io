@@ -291,7 +291,7 @@ html {
     }
 
     .navbar ul {
-        gap: 6px;
+        gap: 0px;
     }
 
     .content {
@@ -307,7 +307,7 @@ html {
     }
 
     .team-container {
-        max-width: 200px;
+        max-width: 300px;
         padding: 12px;
     }
 
@@ -339,14 +339,12 @@ html {
         height: 60px;
     }
 
-    .contact-container {
-        flex-direction: column;
-        align-items: center;
-        max-width: 100px;
-    }
-
     .contact-logo {
         max-width: 30px;
+    }
+
+    .contact-subphrase {
+        font-size: 10px;
     }
 
     .video-container {
