@@ -279,21 +279,19 @@ html {
 @media screen and (max-width: 390px) {
 
     body {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .navbar {
-        padding: 10px 0;
+        padding: 12px 0;
     }
 
     .navbar a {
-        font-size: 12px;
-        padding: 10px 15px;
+        font-size: 10px;
     }
 
     .navbar ul {
-        flex-direction: column;
-        gap: 8px;
+        gap: 6px;
     }
 
     .content {
@@ -301,40 +299,34 @@ html {
     }
 
     h1, h2 {
-        font-size: 22px;
+        font-size: 12px;
     }
 
     .section h2 {
-        font-size: 18px;
+        font-size: 11px;
     }
 
     .team-container {
-        max-width: 310px;
-        padding: 20px;
-    }
-
-    .member-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
+        max-width: 200px;
+        padding: 12px;
     }
 
     .member-photo {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
         border-radius: 25px;
     }
 
     .member-name {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .member-info {
-        gap: 8px;
+        gap: 6px;
     }
 
     .members-list li {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .sponsors-container {
@@ -342,28 +334,19 @@ html {
         align-items: center;
     }
 
-    .sponsor-item {
-        width: 90%;
-        padding: 12px 8px;
-    }
-
     .sponsor-logo {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     .contact-container {
         flex-direction: column;
         align-items: center;
-    }
-
-    .contact-item {
-        width: 90%;
-        padding: 12px 8px;
+        max-width: 100px;
     }
 
     .contact-logo {
-        max-width: 40px;
+        max-width: 30px;
     }
 
     .video-container {
