@@ -329,6 +329,10 @@ html {
         font-size: 10px;
     }
 
+    .subphrase {
+        font-size: 8px;
+    }
+
     .sponsors-container {
         flex-direction: column;
         align-items: center;
