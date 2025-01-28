@@ -282,24 +282,12 @@ html {
         font-size: 10px;
     }
 
-    .navbar {
-        padding: 12px 0;
-    }
-
     .navbar a {
         font-size: 10px;
     }
 
-    .navbar ul {
-        gap: 0px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
     h1, h2 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .section h2 {
@@ -308,21 +296,10 @@ html {
 
     .team-container {
         max-width: 300px;
-        padding: 12px;
-    }
-
-    .member-photo {
-        width: 40px;
-        height: 40px;
-        border-radius: 25px;
     }
 
     .member-name {
         font-size: 10px;
-    }
-
-    .member-info {
-        gap: 6px;
     }
 
     .members-list li {
@@ -330,29 +307,11 @@ html {
     }
 
     .subphrase {
-        font-size: 8px;
-    }
-
-    .sponsors-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sponsor-logo {
-        width: 60px;
-        height: 60px;
-    }
-
-    .contact-logo {
-        max-width: 30px;
+        font-size: 9px;
     }
 
     .contact-subphrase {
         font-size: 10px;
-    }
-
-    .video-container {
-        padding: 5px;
     }
 
     .footer {
