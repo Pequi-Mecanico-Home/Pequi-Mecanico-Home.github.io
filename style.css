@@ -265,6 +265,10 @@ h1, h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
+.pdf-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -320,12 +324,20 @@ html {
         font-size: 9px;
     }
 
+    .sponsors-container {
+        max-width: 50px;
+    }
+
+    .contact-container {
+        max-width: 50px;
+    }
+
     .contact-subphrase {
         font-size: 10px;
     }
 
     .video-container {
-        max-width: 150px;
+        max-width: 200px;
     }
 
     .footer {
@@ -336,4 +348,9 @@ html {
     html {
         overflow-x: hidden;
     }
+
+    .pdf-container {
+        max-width: 200px;
+    }
+
 }
