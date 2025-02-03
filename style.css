@@ -356,6 +356,7 @@ html {
 
     .pdf-container {
         max-width: 220px;
+        height: 300px;
     }
 
     .footer {
