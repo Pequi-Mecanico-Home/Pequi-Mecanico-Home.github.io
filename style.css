@@ -267,6 +267,20 @@ h1, h2 {
 
 .pdf-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 html {
@@ -324,11 +338,11 @@ html {
         font-size: 9px;
     }
 
-    .sponsors-container {
+    .sponsors-item {
         max-width: 50px;
     }
 
-    .contact-container {
+    .contact-item {
         max-width: 50px;
     }
 
@@ -337,7 +351,11 @@ html {
     }
 
     .video-container {
-        max-width: 200px;
+        max-width: 220px;
+    }
+
+    .pdf-container {
+        max-width: 220px;
     }
 
     .footer {
@@ -347,10 +365,6 @@ html {
 
     html {
         overflow-x: hidden;
-    }
-
-    .pdf-container {
-        max-width: 200px;
     }
 
 }
